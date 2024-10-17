@@ -1,0 +1,98 @@
+nav .a{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+nav .a .a2 h2{
+    text-align: right;
+    margin-right: 80px;
+    word-spacing: 30px;
+}
+nav .a .a1 .a2{
+    display: flex;
+}
+nav .a .a1 p{
+    font-size: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.a1{
+    display: flex;
+}
+.banner{
+     background-image: url("mainbanner1.jpg"); 
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 600px; 
+}
+nav .a .a1{
+    color: rgb(247, 245, 243);
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(172, 130, 41), 0 0 5px rgb(7, 7, 241);
+}
+#slogan{
+    font-size: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px 0px 10px 400px;
+    line-height: 1.4;
+}
+#span{
+    font-size: 20px;
+    color: white;
+    /* margin: -50px 0px; */
+}
+ #now{
+    border: 1px solid white;
+    color: black;
+    background-color: white;
+     width: 150px;
+     margin: -25px 0px; 
+    /* margin: 0px 180px; */
+    /* align-items: center; */
+    padding: 5px 5px ; 
+} 
+.ban #now{
+    align-items: center;
+}
+.banner .ban #now:hover{
+    transform: scale(1.1); 
+}
+.des{
+    background-color: rgb(229, 243, 243);
+}
+.des h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(172, 130, 41), 0 0 5px rgb(4, 4, 107);
+    margin: 0px 410px;
+    padding: 20px 0px;
+}
+.des p{
+    padding: 10px 10px;
+    margin: 0px 25px;
+    line-height: 1.4;
+    align-items: center;
+    font-size: 20px;
+}
+.inner{
+    box-sizing: border-box;
+    border: 1px solid white;
+    background-color: white;
+    margin: 15px 40px;
+}
+.get{
+    border: 1px solid white;
+    color: white;
+    background-color: rgb(125, 194, 240);
+     width: 135px;
+     padding: 10px 10px;
+     margin: 10px 550px;
+}
+.des .get:hover{
+    background-color: rgb(81, 158, 189);
+     color: #fff;
+     transition: 0.8ms;
+}
